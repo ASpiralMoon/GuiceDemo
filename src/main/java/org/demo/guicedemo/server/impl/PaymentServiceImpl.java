@@ -18,7 +18,7 @@ public class PaymentServiceImpl implements PaymentService {
 
 	@Override @Logged
 	public void pay(long orderId, long price, Long sessionId) {
-		// TODO Auto-generated method stub
+		// TODO
 	}
 
 	void putCache(String key, String value) {

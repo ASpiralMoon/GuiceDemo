@@ -10,7 +10,6 @@ public class ChinaModule extends AbstractModule {
 		// Adds CNY support
 		Multibinder.newSetBinder(binder(), String.class)
 			.addBinding().toInstance("CNY");
-
 	}
 
 }

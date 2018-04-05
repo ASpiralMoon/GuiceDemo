@@ -14,7 +14,9 @@ public class StringWritingApplet implements MyApplet {
 	@Inject
 	public StringWritingApplet(MyDestination destination,
 			@Output Provider<String> stringProvider) {
+
 		super();
+
 		this.destination = destination;
 		this.stringProvider = stringProvider;
 	}
